@@ -38,7 +38,10 @@ function CTA({ href, variant = "primary", children }) {
   const base =
     "inline-flex items-center justify-center gap-1 rounded-full px-6 py-2 text-sm font-semibold uppercase tracking-wide shadow-sm transition-transform duration-200 hover:scale-105";
   return (
-    <a href={href} className={`${base} ${variants[variant]}`}> {children} </a>
+    <a href={href} className={`${base} ${variants[variant]}`}>
+      {" "}
+      {children}{" "}
+    </a>
   );
 }
 
@@ -82,12 +85,36 @@ export default function LandingPage() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8">
           {/* Left: Social Icons */}
           <nav className="flex items-center gap-4">
-            <SocialLink href="https://instagram.com/matheuscadorin" Icon={Instagram} label="Instagram" />
-            <SocialLink href="https://facebook.com/matheuscadorin" Icon={Facebook} label="Facebook" />
-            <SocialLink href="https://x.com/matheuscadorin" Icon={Twitter} label="Twitter" />
-            <SocialLink href="https://youtube.com/@matheuscadorin" Icon={Youtube} label="YouTube" />
-            <SocialLink href="https://wa.me/5547999999999" Icon={MessageCircle} label="WhatsApp" />
-            <SocialLink href="https://linkedin.com/in/matheuscadorin" Icon={Linkedin} label="LinkedIn" />
+            <SocialLink
+              href="https://instagram.com/matheuscadorin"
+              Icon={Instagram}
+              label="Instagram"
+            />
+            <SocialLink
+              href="https://facebook.com/matheuscadorin"
+              Icon={Facebook}
+              label="Facebook"
+            />
+            <SocialLink
+              href="https://x.com/matheuscadorin"
+              Icon={Twitter}
+              label="Twitter"
+            />
+            <SocialLink
+              href="https://youtube.com/@matheuscadorin"
+              Icon={Youtube}
+              label="YouTube"
+            />
+            <SocialLink
+              href="https://wa.me/5547999999999"
+              Icon={MessageCircle}
+              label="WhatsApp"
+            />
+            <SocialLink
+              href="https://linkedin.com/in/matheuscadorin"
+              Icon={Linkedin}
+              label="LinkedIn"
+            />
           </nav>
 
           {/* Right: CTAs */}
