@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Site-Matheus/static/css/main.bdef2c09.css",
+    "main.js": "/Site-Matheus/static/js/main.1b4377a4.js",
+    "index.html": "/Site-Matheus/index.html",
+    "main.bdef2c09.css.map": "/Site-Matheus/static/css/main.bdef2c09.css.map",
+    "main.1b4377a4.js.map": "/Site-Matheus/static/js/main.1b4377a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdef2c09.css",
+    "static/js/main.1b4377a4.js"
+  ]
+}
